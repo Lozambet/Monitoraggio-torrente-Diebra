@@ -193,12 +193,12 @@ const App: React.FC = () => {
                 IBE
               </span>
               <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-72 p-3 bg-slate-800 text-white text-base rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-10">
-                Un metodo scientifico per misurare la salute dei fiumi. Si basa sull'analisi della presenza e del tipo di macroinvertebrati (piccoli animali senza scheletro come insetti, molluschi, crostacei) che vivono sul fondale dei corsi d'acqua. La presenza di determinate specie indica un'acqua più o meno pulita.
+                L'indice Biotico Esteso è valore utilizzato per calcolare la salute dei fiumi. Si basa sull'analisi e presenza dei macroinvertebrati (piccoli animali senza scheletro come insetti, molluschi, crostacei) che vivono sul fondale dei corsi d'acqua. La presenza di determinati gruppi di organismi indica un'acqua più o meno pulita.
                 <svg className="absolute text-slate-800 h-2 w-full left-0 top-full" x="0px" y="0px" viewBox="0 0 255 255">
                     <polygon className="fill-current" points="0,0 127.5,127.5 255,0"/>
                 </svg>
               </span>
-            </span>: un metodo scientifico per misurare la salute dei fiumi. Si basa sull'analisi della presenza e del tipo di macroinvertebrati (piccoli animali senza scheletro come insetti, molluschi, crostacei) che vivono sul fondale dei corsi d'acqua. La presenza di determinate specie indica un'acqua più o meno pulita.
+            </span>: L'indice Biotico Esteso
           </p>
         </section>
 
@@ -240,7 +240,7 @@ const App: React.FC = () => {
             {' '}nel torrente, ogni gruppo ha raschiato cinque volte per gruppo il torrente, con uno strumento specifico chiamato surber che ha permesso di esaminare un’area di torrente pari a 0,1 m².
           </p>
           <p>
-            Dopo hanno smosso i sassi per far scivolare i microrganismi all’interno di un cilindro posizionato sulla base del retino. Successivamente è stato utilizzato uno spazzolino per prelevare le{' '}
+            Dopo aver smosso i sassi alcuni microrganismi sono scivolati all’interno di un cilindro posizionato sulla base del retino. Successivamente è stato utilizzato uno spazzolino per prelevare le{' '}
             <span className="relative group cursor-help">
               <span className="font-semibold text-blue-600 border-b-2 border-dotted border-blue-400">
                 diatomee
@@ -258,13 +258,13 @@ const App: React.FC = () => {
           </p>
 
           <p>
-            In laboratorio hanno osservato i macroinvertebrati raccolti e hanno identificato la loro{' '}
+            In laboratorio la classe ha osservato i macroinvertebrati raccolti e ha identificato la loro{' '}
             <span className="relative group cursor-help">
               <span className="font-semibold text-blue-600 border-b-2 border-dotted border-blue-400">
                 taxonomia
               </span>
               <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-72 p-3 bg-slate-800 text-white text-base rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-10">
-                Classificazione di organismi viventi che condividono caratteristiche comuni e vengono classificati in un sistema gerarchico.
+                Classificazione usata in biologia per ordinare organismi viventi che condividono caratteristiche comuni e vengono classificati in un sistema gerarchico.
                 <svg className="absolute text-slate-800 h-2 w-full left-0 top-full" x="0px" y="0px" viewBox="0 0 255 255">
                     <polygon className="fill-current" points="0,0 127.5,127.5 255,0"/>
                 </svg>
@@ -548,6 +548,10 @@ const App: React.FC = () => {
                         </tbody>
                       </table>
                     </div>
+                    {/* Added text description for the IBE calculation table */}
+                    <p className="mt-4 text-slate-700 text-base leading-relaxed">
+                      Per calcolare il valore finale dell'IBE, è stata utilizzata una tabella a doppia entrata. Orizzontalmente gli ordini dei macroinvertebrati, verticalmente la quantità di organismi osservati. Dato che gli efemerotteri erano gli organismi maggiormente presenti, abbiamo intersecato questa riga con la colonna relativa alla presenza (11+) e abbiamo ottenuto il valore dell'IBE.
+                    </p>
                 </div>
             </div>
         </section>

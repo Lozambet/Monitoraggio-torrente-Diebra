@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 
 const glossaryData = [
   {
-    term: 'TAXA',
-    definition: 'Gruppi di organismi o oggetti che condividono caratteristiche comuni e vengono classificati in un sistema gerarchico.',
+    term: 'Taxonomia',
+    definition: 'Classificazione usata in biologia per ordinare organismi viventi che condividono caratteristiche comuni e vengono classificati in un sistema gerarchico.',
   },
   {
     term: 'Macroinvertebrati',
@@ -13,7 +13,7 @@ const glossaryData = [
   },
   {
     term: 'IBE',
-    definition: "Un metodo scientifico per misurare la salute dei fiumi. Si basa sull'analisi della presenza e del tipo di macroinvertebrati (piccoli animali senza scheletro come insetti, molluschi, crostacei) che vivono sul fondale dei corsi d'acqua. La presenza di determinate specie indica un'acqua più o meno pulita.",
+    definition: "L'indice Biotico Esteso è valore utilizzato per calcolare la salute dei fiumi. Si basa sull'analisi e presenza dei macroinvertebrati (piccoli animali senza scheletro come insetti, molluschi, crostacei) che vivono sul fondale dei corsi d'acqua. La presenza di determinati gruppi di organismi indica un'acqua più o meno pulita.",
   },
 ];
 
