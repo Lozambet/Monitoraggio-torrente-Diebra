@@ -237,10 +237,10 @@ const App: React.FC = () => {
                 </svg>
               </span>
             </span>
-            {' '}nel torrente, ogni gruppo ha raschiato cinque volte per gruppo il torrente, con uno strumento specifico chiamato surber che ha permesso di esaminare un’area di torrente pari a 0,1 m².
+            {' '}nel torrente, ogni gruppo ha raschiato cinque volte il torrente, con uno strumento specifico chiamato rete Surber, il cui telaio permette campionare, ad ogni replica, una superficie pari a 0,1 m².
           </p>
           <p>
-            Dopo aver smosso i sassi alcuni microrganismi sono scivolati all’interno di un cilindro posizionato sulla base del retino. Successivamente è stato utilizzato uno spazzolino per prelevare le{' '}
+            Dopo aver smosso i sassi i microrganismi sono scivolati all’interno di una bottiglia posta al termine della rete conica del Surber. Successivamente è stato utilizzato uno spazzolino per prelevare le{' '}
             <span className="relative group cursor-help">
               <span className="font-semibold text-blue-600 border-b-2 border-dotted border-blue-400">
                 diatomee
@@ -318,7 +318,7 @@ const App: React.FC = () => {
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="h-10 w-10 text-blue-800 mb-2">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19 14.5M14.25 3.104c.251.023.501.05.75.082M19 14.5v3.857a2.25 2.25 0 01-2.25 2.25h-5.5a2.25 2.25 0 01-2.25-2.25v-3.857M19 14.5L14.25 10M5 14.5L9.75 10" />
                     </svg>
-                    <span className="font-semibold text-sm">Microscopi</span>
+                    <span className="font-semibold text-sm">Stereomicroscopi</span>
                 </div>
             </div>
         </section>
@@ -486,7 +486,7 @@ const App: React.FC = () => {
                     {/* Sentence added as requested under the table */}
                     <div className="mt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                       <p className="text-slate-700 italic text-base flex-1">
-                        Come possiamo notare l'ordine dei macroinvertebrati nettamente più presenti nel torrente è quello degli efemerotteri
+                        Come possiamo notare l'ordine dei macroinvertebrati nettamente più presenti nel torrente è quello degli Efemerotteri. Sono stati identificati in totale 13 taxa, o unità sistematiche (famiglie o generi).
                       </p>
                       <button
                         onClick={() => setIsEfemerotteriModalOpen(true)}
@@ -550,7 +550,7 @@ const App: React.FC = () => {
                     </div>
                     {/* Added text description for the IBE calculation table */}
                     <p className="mt-4 text-slate-700 text-base leading-relaxed">
-                      Per calcolare il valore finale dell'IBE, è stata utilizzata una tabella a doppia entrata. Orizzontalmente gli ordini dei macroinvertebrati, verticalmente la quantità di organismi osservati. Dato che gli efemerotteri erano gli organismi maggiormente presenti, abbiamo intersecato questa riga con la colonna relativa alla presenza (11+) e abbiamo ottenuto il valore dell'IBE.
+                      Per calcolare il valore finale dell'IBE, è stata utilizzata una tabella a doppia entrata. Orizzontalmente sono indicati i gruppi dei macroinvertebrati in ordine decrescente di sensibilità alle alterazioni, verticalmente il numero totale di unità sistematiche osservate. Dato che gli efemerotteri erano gli organismi maggiormente presenti, abbiamo intersecato questa riga con la colonna relativa all’abbondanza di taxa (13) e abbiamo ottenuto il valore dell'IBE.
                     </p>
                 </div>
             </div>
